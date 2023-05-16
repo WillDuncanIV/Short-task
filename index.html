@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hybrid Solutions Comparison</title>
+  <style>
+    
+    body{
+    font-family: 'Rubik Mono One', sans-serif;
+    background:linear-gradient(to bottom left, gold,  silver, brown);
+    background-repeat:no-repeat;
+    width:95%;
+    max-width: 990px;
+    margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: purple;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    li {
+        color: gold
+    }
+    .solution {
+      width: 30%;
+      min-width: 300px;
+      margin: 20px;
+      padding: 20px;
+      background:linear-gradient(to bottom left, red,  blue, white);
+      background-repeat:no-repeat;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .solution h2 {
+      color: silver
+    }
+
+    .solution p {
+      color: silver;
+    }
+
+    .reference {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .reference a {
+      color: gold;
+      text-decoration: gold;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Hybrid Solutions Comparison</h1>
+  <div class="container">
+    <div class="solution">
+      <h2>PhoneGap</h2>
+      <p>PhoneGap is a popular hybrid application development framework based on Apache Cordova.</p>
+      <p>Advantages of PhoneGap:</p>
+      <ul>
+        <li>Easy to learn and use for web developers.</li>
+        <li>Supports multiple platforms, including iOS and Android.</li>
+        <li>Large community support and extensive plugin ecosystem.</li>
+      </ul>
+      <p>Disadvantages of PhoneGap:</p>
+      <ul>
+        <li>Performance can be slower compared to native apps.</li>
+        <li>UI elements may not look and feel native.</li>
+      </ul>
+      <div class="reference">For more information, refer to the <a href="https://phonegap.com/">PhoneGap website</a>.</div>
+    </div>
+
+    <div class="solution">
+      <h2>Flutter</h2>
+      <p>Flutter is a UI toolkit developed by Google for building natively compiled applications for mobile, web, and desktop from a single codebase.</p>
+      <p>Advantages of Flutter:</p>
+      <ul>
+        <li>Fast development with hot reload and customizable widgets.</li>
+        <li>High-performance and native-like user interfaces.</li>
+        <li>Supports both iOS and Android platforms.</li>
+      </ul>
+      <p>Disadvantages of Flutter:</p>
+      <ul>
+        <li>Relatively new framework with a smaller community compared to PhoneGap or React Native.</li>
+        <li>May have a larger app size compared to pure native apps.</li>
+      </ul>
+      <div class="reference">For more information, refer to the <a href="https://flutter.dev/">Flutter website</a>.</div>
+    </div>
+
+       
+       
+    <div class="solution">
+        <h2>React Native</h2>
+        <p>React Native is a JavaScript framework developed by Facebook for building native-like mobile applications using
+        <p>Advantages of React Native:</p>
+        <ul>
+          <li>Cross-platform development.</li>
+          <li>Code reusability.</li>
+          <li>Large developer community.</li>
+          <li>Native-like performance</li>
+          <li>Hot reloading</li>
+        </ul>
+        <p>Disadvantages of React Native:</p>
+        <ul>
+          <li>Limited native access</li>
+          <li>Performance limitations</li>
+          <li>Learning curve</li>
+          <li>Platform-specific bugs</li>
+          <li>Limited access to device features</li>
+        </ul>
+        <div class="reference">For more information, refer to the <a href="https://reactnative.dev/">React Native website</a>.</div>
+    </div>
